@@ -33,4 +33,15 @@ node_modules
 # Runtime configuration for swagger app
 config/runtime.yaml
 
+# production
+/build
+
+# api key-values
+.env
+
+# misc
 .DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
